@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rangkumin"
+  short_description: "Source-grounded study notes and worked solutions"
+  default_prompt: "Use $rangkumin to turn these learning materials into clear, verified study notes in my chosen language."
