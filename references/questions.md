@@ -45,9 +45,11 @@ Read only checks relevant to the actual subject; these examples are not a requir
 
 ## Code and pseudocode
 
-Match the requested language exactly: C++ is not C. Preserve provided ADT types, interfaces, file names, indexing conventions, and main-program format when requested. Separate `main.cpp`, implementation, and header clearly for copying. Keep pseudocode and implementation in distinct sections; if the user wants all pseudocode first, do that.
+Read [programming.md](programming.md) for detailed **Notasi Algoritmik pseudocode (Rinaldi Munir ITB & Telkom University)**, **Go (Golang)**, and **C++** conventions.
 
-Use the requested loop style. Prefer while/for when that is the user's convention, but do not rewrite source semantics merely to avoid another construct. Explain a necessary convention briefly, such as whether stack top is an index or element count.
+Match the requested language and any user-supplied reference example exactly: C++ is not C, and Go/C++ syntax must not leak into Notasi Algoritmik pseudocode. Preserve provided ADT types, interfaces, file names, indexing conventions, and main-program format when requested. Separate `header.h`, implementation, and `main.cpp` (or Go files) clearly for copying, and keep pseudocode and runnable implementation in distinct sections.
+
+Use the requested loop style and parameter modes (`input`, `output`, `input/output`), without rewriting source semantics merely to avoid another construct. Explain a necessary convention briefly, such as whether stack `top` is an index or element count, or whether arrays are `0`-based or `1`-based.
 
 Compile and run meaningful small cases if execution tools exist. Otherwise inspect declarations, definitions, state updates, and boundary behavior, and say execution was not performed if claiming validation would matter. Avoid decorative comments and irrelevant features.
 
